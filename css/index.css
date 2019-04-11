@@ -266,4 +266,8 @@ a {
   border-radius: 10px;
   font-size: 18px;
   width: 75%;
+  cursor: pointer;
+}
+.home .content-pick .destination .btn:hover {
+  background-color: #00999a;
 }
