@@ -213,6 +213,12 @@ a {
 .home .main-header .funbus-img {
   padding-bottom: 3%;
 }
+@media (max-width: 768px) {
+  .home .main-header {
+    max-width: 700px;
+    margin: 0 auto 20px;
+  }
+}
 .home .content-section {
   margin: 30px 0;
   display: flex;
@@ -229,6 +235,12 @@ a {
 }
 .home .content-section .img-content img {
   border-radius: 10px;
+}
+@media (max-width: 768px) {
+  .home .content-section {
+    max-width: 700px;
+    margin: 20px auto;
+  }
 }
 .home .inverse-content {
   padding-bottom: 30px;
@@ -248,6 +260,12 @@ a {
 }
 .home .content-destination img {
   border-radius: 10px;
+}
+@media (max-width: 768px) {
+  .home .content-destination {
+    max-width: 700px;
+    margin: 20px auto;
+  }
 }
 .home .content-pick {
   padding-top: 30px;
@@ -270,4 +288,15 @@ a {
 }
 .home .content-pick .destination .btn:hover {
   background-color: #1ab6cf;
+}
+@media (max-width: 768px) {
+  .home .content-pick .destination .btn {
+    padding: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .home .content-pick {
+    max-width: 700px;
+    margin: 20px auto;
+  }
 }

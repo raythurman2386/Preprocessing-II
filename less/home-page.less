@@ -6,6 +6,11 @@
         .funbus-img {
             padding-bottom: 3%;
         }
+
+        @media @tablet {
+            max-width: 700px;
+            margin: 0 auto 20px;
+        }
     }
 
     .content-section {
@@ -28,6 +33,11 @@
             img {
                 border-radius: 10px;
             }
+        }
+
+        @media @tablet {
+            max-width: 700px;
+            margin: 20px auto;
         }
     }
 
@@ -53,6 +63,11 @@
         img {
             border-radius: 10px;
         }
+
+        @media @tablet {
+            max-width: 700px;
+            margin: 20px auto;
+        }
     }
 
     .content-pick {
@@ -68,7 +83,15 @@
             .btn {
                 .button-style(@white, @button-bg);
                 cursor: pointer;
+                @media @tablet {
+                    padding: 18px;
+                }
             }
+        }
+
+        @media @tablet {
+            max-width: 700px;
+            margin: 20px auto;
         }
     }
 }
