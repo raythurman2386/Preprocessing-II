@@ -183,6 +183,18 @@ a {
   padding: 25px 75px;
   border-bottom: 2px dashed #C0C0C0;
 }
+.main-nav .header-img {
+  width: 40%;
+}
+.main-nav .top-nav {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-nav .top-nav a {
+  font-size: 16px;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
