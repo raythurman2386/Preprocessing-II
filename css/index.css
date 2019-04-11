@@ -259,3 +259,11 @@ a {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination .btn {
+  color: white;
+  background-color: #008080;
+  padding: 15px 40px;
+  border-radius: 10px;
+  font-size: 18px;
+  width: 75%;
+}
