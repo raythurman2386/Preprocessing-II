@@ -260,8 +260,8 @@ a {
   margin-bottom: 30px;
 }
 .home .content-pick .destination .btn {
-  color: white;
-  background-color: #008080;
+  color: #FFFFFF;
+  background-color: #17A2B8;
   padding: 15px 40px;
   border-radius: 10px;
   font-size: 18px;
@@ -269,5 +269,5 @@ a {
   cursor: pointer;
 }
 .home .content-pick .destination .btn:hover {
-  background-color: #00999a;
+  background-color: #1ab6cf;
 }
