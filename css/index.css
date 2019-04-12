@@ -295,11 +295,12 @@ a {
   .home .content-section {
     max-width: 450px;
     margin: 2% auto;
+    flex-direction: column;
+    width: 95%;
   }
 }
 @media (max-width: 768px) {
   .home .content-section {
-    flex-direction: column;
     max-width: 700px;
     margin: 0 auto;
     width: 95%;
