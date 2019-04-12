@@ -185,7 +185,7 @@ a {
 }
 @media (max-width: 500px) {
   .main-nav {
-    max-width: 500px;
+    max-width: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -196,8 +196,13 @@ a {
   width: 40%;
 }
 @media (max-width: 500px) {
-  .main-nav .header-img {
+  .main-nav {
     width: 100%;
+    align-self: center;
+  }
+  .main-nav h1 {
+    font-size: 2.5rem;
+    margin-bottom: 3%;
   }
 }
 .main-nav .top-nav {
@@ -237,17 +242,17 @@ a {
   .home .main-header {
     max-width: 450px;
     width: 95%;
-    margin: 0 auto;
+    margin: 0 auto 5%;
   }
 }
 @media (max-width: 768px) {
   .home .main-header {
     max-width: 700px;
-    margin: 0 auto 20px;
+    margin: 0 auto 5%;
   }
 }
 .home .content-section {
-  margin: 30px 0;
+  margin: 3% 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -276,7 +281,7 @@ a {
 @media (max-width: 500px) {
   .home .content-section {
     max-width: 450px;
-    margin: 10px auto;
+    margin: 2% auto;
   }
 }
 @media (max-width: 768px) {
@@ -311,7 +316,7 @@ a {
 }
 .home .content-destination {
   width: 75%;
-  margin: 0 auto 30px;
+  margin: 0 auto 3%;
 }
 @media (max-width: 500px) {
   .home .content-destination {
@@ -325,13 +330,13 @@ a {
 @media (max-width: 500px) {
   .home .content-destination {
     max-width: 450px;
-    margin: 10px auto;
+    margin: 1% auto;
   }
 }
 @media (max-width: 768px) {
   .home .content-destination {
     max-width: 700px;
-    margin: 20px auto;
+    margin: 2% auto;
   }
 }
 .home .content-pick {
@@ -342,7 +347,7 @@ a {
 }
 .home .content-pick .destination {
   width: 30%;
-  margin-bottom: 30px;
+  margin-bottom: 3%;
 }
 @media (max-width: 500px) {
   .home .content-pick .destination {
@@ -365,7 +370,7 @@ a {
 @media (max-width: 500px) {
   .home .content-pick .destination .btn {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 4%;
   }
 }
 @media (max-width: 500px) {
@@ -373,12 +378,12 @@ a {
     flex-direction: column;
     max-width: 450px;
     width: 95%;
-    margin: 10px auto;
+    margin: 1% auto;
   }
 }
 @media (max-width: 768px) {
   .home .content-pick {
     max-width: 700px;
-    margin: 20px auto;
+    margin: 2% auto;
   }
 }
