@@ -1,6 +1,6 @@
 .home {
     .main-header {
-        border-bottom: 2px dashed @navigation-border;
+        .border-bottom();
         padding-bottom: 2rem;
 
         .funbus-img {
@@ -8,23 +8,20 @@
         }
 
         @media @mobile {
-            max-width: 450px;
+            .media-width(450px, 0 auto 5%);
             width: 95%;
-            margin: 0 auto 5%;
         }
 
         @media @tablet {
-            max-width: 700px;
-            margin: 0 auto 5%;
+            .media-width(700px, 0 auto 5%);
         }
 
     }
 
     .content-section {
         margin: 3% 0;
-        display: flex;
+        .flexed(space-between, center);
         flex-wrap: wrap;
-        justify-content: space-between;
 
 
 
@@ -51,21 +48,19 @@
         }
 
         @media @mobile {
-            max-width: 450px;
-            margin: 2% auto;
+            .media-width(450px, 2% auto);
         }
 
         @media @tablet {
             flex-direction: column;
-            max-width: 700px;
+            .media-width(700px, 0 auto);
             width: 95%;
-            margin: 0 auto;
         }
     }
 
     .inverse-content {
         padding-bottom: 30px;
-        border-bottom: 2px dashed @navigation-border;
+        .border-bottom();
 
         .text-content {
             padding-left: 1%;
@@ -91,7 +86,7 @@
         margin: 0 auto 3%;
 
         @media @mobile {
-            max-width: 450px;
+            .media-width(450px, 0 auto);
             width: 95%;
         }
 
@@ -101,22 +96,17 @@
 
         @media @mobile {
             .media-width(450px, 1% auto);
-            // max-width: 450px;
-            // margin: 1% auto;
         }
 
         @media @tablet {
             .media-width(700px, 2% auto);
-            // max-width: 700px;
-            // margin: 2% auto;
         }
     }
 
     .content-pick {
         padding-top: 30px;
         border-top: 2px dashed @navigation-border;
-        display: flex;
-        justify-content: space-between;
+        .flexed(space-between, center);
 
         .destination {
             width: 30%;
@@ -141,15 +131,12 @@
 
         @media @mobile {
             flex-direction: column;
-            max-width: 450px;
+            .media-width(450px, 1% auto);
             width: 95%;
-            margin: 1% auto;
         }
 
         @media @tablet {
             .media-width(700px, 2% auto);
-            // max-width: 700px;
-            // margin: 2% auto;
         }
     }
 }

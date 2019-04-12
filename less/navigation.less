@@ -1,15 +1,13 @@
 // Navigation Styles here
 .main-nav {
     .flexed(space-between, center);
-    padding: 25px 75px;
-    border-bottom: 2px dashed @navigation-border;
+    padding: 25px 10%;
+    .border-bottom();
 
     @media @mobile {
-        max-width: 450px;
-        display: flex;
+        .media-width(450px, 0);
+        .flexed(center, center);
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
     .header-img{
