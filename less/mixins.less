@@ -18,11 +18,29 @@
     }
 }
 
-.media-width(@width, @margin){
+.media-width(@width, @margin) {
     max-width: @width;
     margin: @margin;
 }
 
-.border-bottom(){
+.border-bottom() {
     border-bottom: 2px dashed @navigation-border;
 }
+
+.keyframes(@name, @rules) {
+    @keyframes @name {
+        @rules();
+    }
+}
+
+.keyframes(pulse, {
+    0%, 50%, 100% {
+        opacity: 0;
+    }
+
+    25%, 75% {
+        opacity: 1;
+    }
+}
+
+);
