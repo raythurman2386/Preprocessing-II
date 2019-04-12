@@ -4,15 +4,32 @@
     padding: 25px 75px;
     border-bottom: 2px dashed @navigation-border;
 
+    @media @mobile {
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .header-img{
         width: 40%;
+
+        @media @mobile {
+            width: 100%;
+        }
     }
 
     .top-nav{
         width: 40%;
         .flexed(space-around, center);
         a {
-            font-size: 16px;
+            font-size: 1.6rem;
+        }
+
+        @media @mobile {
+            width: 100%;
+            justify-content: space-around;
         }
     }
 }

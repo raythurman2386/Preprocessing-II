@@ -1,16 +1,23 @@
 .home {
     .main-header {
         border-bottom: 2px dashed @navigation-border;
-        padding-bottom: 2%;
+        padding-bottom: 2rem;
 
         .funbus-img {
             padding-bottom: 3%;
+        }
+
+        @media @mobile {
+            max-width: 450px;
+            width: 95%;
+            margin: 0 auto;
         }
 
         @media @tablet {
             max-width: 700px;
             margin: 0 auto 20px;
         }
+
     }
 
     .content-section {
@@ -24,20 +31,35 @@
         .text-content {
             width: 48%;
             padding-right: 1%;
+
+            @media @mobile {
+                width: 95%;
+            }
         }
 
         .img-content {
             width: 48%;
             padding-left: 1%;
 
+            @media @mobile {
+                width: 95%;
+            }
+
             img {
                 border-radius: 10px;
             }
         }
 
+        @media @mobile {
+            max-width: 450px;
+            margin: 10px auto;
+        }
+
         @media @tablet {
+            flex-direction: column;
             max-width: 700px;
-            margin: 20px auto;
+            width: 95%;
+            margin: 0 auto;
         }
     }
 
@@ -48,11 +70,19 @@
         .text-content {
             padding-left: 1%;
             padding-right: 0;
+
+            @media @mobile {
+                padding-top: 5%;
+            }
         }
 
         .img-content {
             padding-right: 1%;
             padding-left: 0;
+
+            @media @mobile {
+                order: 2;
+            }
         }
     }
 
@@ -60,8 +90,18 @@
         width: 75%;
         margin: 0 auto 30px;
 
+        @media @mobile {
+            max-width: 450px;
+            width: 95%;
+        }
+
         img {
             border-radius: 10px;
+        }
+
+        @media @mobile {
+            max-width: 450px;
+            margin: 10px auto;
         }
 
         @media @tablet {
@@ -80,13 +120,28 @@
             width: 30%;
             margin-bottom: 30px;
 
+            @media @mobile {
+                width: 75%;
+                margin: 0 auto;
+            }
+
             .btn {
                 .button-style(@white, @button-bg);
                 cursor: pointer;
-                @media @tablet {
-                    padding: 18px;
+
+                @media @mobile {
+                    width: 100%;
+                    margin-bottom: 20px;
                 }
+
             }
+        }
+
+        @media @mobile {
+            flex-direction: column;
+            max-width: 450px;
+            width: 95%;
+            margin: 10px auto;
         }
 
         @media @tablet {
