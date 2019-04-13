@@ -187,6 +187,10 @@ a {
   text-decoration: none;
   color: black;
 }
+label {
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
 .nav-container {
   width: 100%;
   border-bottom: 2px dashed #C0C0C0;
