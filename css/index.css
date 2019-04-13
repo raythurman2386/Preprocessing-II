@@ -452,6 +452,13 @@ label {
   border-radius: 10px;
   border: 1px solid gray;
 }
+.contact .contact-form .form .mid-form {
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
 .contact .contact-form .form .bot-form {
   width: 98%;
   display: flex;
