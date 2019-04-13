@@ -405,3 +405,72 @@ a {
     margin: 2% auto;
   }
 }
+.contact .main-header {
+  border-bottom: 2px dashed #C0C0C0;
+  padding-bottom: 2rem;
+}
+.contact .main-header .funbus-img {
+  padding-bottom: 3%;
+}
+@media (max-width: 500px) {
+  .contact .main-header {
+    max-width: 450px;
+    margin: 0 auto 5%;
+    width: 95%;
+  }
+}
+@media (max-width: 768px) {
+  .contact .main-header {
+    max-width: 700px;
+    margin: 0 auto 5%;
+  }
+}
+.contact .contact-form {
+  max-width: 750px;
+  margin: 5%;
+}
+.contact .contact-form .form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.contact .contact-form .form .top-form {
+  width: 98%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contact .contact-form .form .top-form input {
+  width: 40%;
+  padding: 1% 1%;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.contact .contact-form .form .bot-form {
+  width: 98%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin: 2% auto;
+}
+.contact .contact-form .form .bot-form textarea {
+  width: 98%;
+  margin: 1%;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.contact .contact-form .form .bot-form button {
+  color: #212529;
+  background-color: #17A2B8;
+  border-radius: 10px;
+  font-size: 18px;
+  width: 75%;
+  padding: 8px;
+  cursor: pointer;
+}
+.contact .contact-form .form .bot-form button:hover {
+  background-color: #1ab6cf;
+}

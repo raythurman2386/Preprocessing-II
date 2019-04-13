@@ -1,0 +1,63 @@
+.contact {
+    .main-header {
+        .border-bottom();
+        padding-bottom: 2rem;
+
+        .funbus-img {
+            padding-bottom: 3%;
+        }
+
+        @media @mobile {
+            .media-width(450px, 0 auto 5%);
+            width: 95%;
+        }
+
+        @media @tablet {
+            .media-width(700px, 0 auto 5%);
+        }
+
+    }
+
+    .contact-form {
+        .media-width(750px, 5%);
+
+        .form {
+            .flexed(space-evenly, center);
+            width: 100%;
+            flex-wrap: wrap;
+
+            .top-form {
+                width: 98%;
+                .flexed(space-evenly, center);
+
+                input {
+                    width: 40%;
+                    padding: 1% 1%;
+                    border-radius: 10px;
+                    border: 1px solid gray;
+                }
+            }
+
+            .bot-form {
+                width: 98%;
+                .flexed(space-evenly, center);
+                flex-direction: column;
+                margin: 2% auto;
+
+                textarea {
+                    width: 98%;
+                    margin: 1%;
+                    border-radius: 10px;
+                    border: 1px solid gray;
+                }
+
+                button {
+                    .button-style(@font-color, @button-bg);
+                    cursor: pointer;
+                }
+
+            }
+        }
+    }
+
+}
